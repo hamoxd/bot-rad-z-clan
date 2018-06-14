@@ -23,11 +23,7 @@ client.on('message', msg => {
 
 
 
-client.on('message', msg => {
-  if (msg.content === 'الشعار') {
-    msg.reply('**``! Z |``  شعار دسكورد جنب اسمك الاصلي ////// ``!༺𝒵♚`` شعار العبه**');
-  }
-});
+
 
 
 client.on('message', msg => {
