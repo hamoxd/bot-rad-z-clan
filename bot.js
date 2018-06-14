@@ -20,17 +20,15 @@ client.on('message', msg => {
   }
 });
 
+
+
+
 client.on('message', msg => {
-  if (msg.content === 'رابط') {
-    msg.reply('** ``https://discord.gg/2UJV6Hp``**');
+  if (msg.content === 'الشعار') {
+    msg.reply('**``! Z |``  شعار دسكورد جنب اسمك الاصلي ////// ``!༺𝒵♚`` شعار العبه**');
   }
 });
 
-client.on('message', msg => {
-  if (msg.content === 'الرابط') {
-    msg.reply('** ``https://discord.gg/2UJV6Hp``**');
-  }
-});
 
 client.on('message', msg => {
   if (msg.content === 'باك') {
@@ -100,7 +98,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : i1Suhaib ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`بوت رد|Z,CLAN`,"http://twitch.tv/S-F")
+client.user.setGame(`Z_4Ever`,"http://twitch.tv/S-F")
 client.user.setStatus("dnd")
 });
   
