@@ -21,6 +21,11 @@ client.on('message', msg => {
 });
 
 
+client.on('message', msg => {
+  if (msg.content === 'ترحيب') {
+    msg.reply('https://i.imgur.com/B5wWkpZ.png');
+  }
+});
 
 
 
