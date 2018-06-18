@@ -12,6 +12,31 @@ client.on('message', message => {
 });
 
 
+client.on('message', message => {
+    if(message.content === 'الشعار'){
+        message.channel.send(':arrow_down:شعار دسكورد جنب اسمك الاصلي')
+    }
+});
+
+
+client.on('message', message => {
+    if(message.content === 'الشعار'){
+        message.channel.send('! Z |')
+    }
+});
+
+client.on('message', message => {
+    if(message.content === 'الشعار'){
+        message.channel.send(':arrow_down:شعار العبه')
+    }
+});
+
+client.on('message', message => {
+    if(message.content === 'الشعار'){
+        message.channel.send('!༺𝒵♚')
+    }
+});
+
 
 
 client.on('message', msg => {
