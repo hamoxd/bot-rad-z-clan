@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const fs = require('fs');
 client.on("guildMemberAdd", member => {
       
-      const welcomer = member.guild.channels.find("name","chat"); //اسم روم
+      const welcomer = member.guild.channels.find("name","welcome"); //اسم روم
                 
       var Canvas = require('canvas')
       var jimp = require('jimp')
@@ -69,7 +69,6 @@ client.on("guildMemberAdd", member => {
       });
       });
       });
-
 
 
 // THIS  MUST  BE  THIS  WAY
